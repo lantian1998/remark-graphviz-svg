@@ -10,11 +10,6 @@
     "dist/*",
     "index.d.ts"
   ],
-  "scripts": {
-    "build": "rm -rf dist && tsc -p ./tsconfig.build.json",
-    "test": "node --loader ts-node/esm ./test/test.ts",
-    "prepack": "npm run build"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DCsunset/remark-graphviz-svg.git"
